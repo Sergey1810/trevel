@@ -1,6 +1,7 @@
 import Hero from '@/Components/Hero'
 import MobileNav from '@/Components/MobileNav'
 import Navbar from '@/Components/Navbar'
+import TopDestination from '@/Components/TopDestination'
 import React, { useState } from 'react'
 
 const HomePage = () => {
@@ -15,6 +16,7 @@ const HomePage = () => {
       <MobileNav nav={nav} closeNav={closeNavHandler} />
       <Navbar openNav={openNavHandler} />
       <Hero/>
+      <TopDestination/>
     </div>
   )
 }
