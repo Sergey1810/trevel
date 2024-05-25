@@ -2,6 +2,7 @@ import Hero from '@/Components/Hero'
 import Hotels from '@/Components/Hotels'
 import MobileNav from '@/Components/MobileNav'
 import Navbar from '@/Components/Navbar'
+import Reviews from '@/Components/Reviews'
 import TopDestination from '@/Components/TopDestination'
 import React, { useState } from 'react'
 
@@ -19,6 +20,7 @@ const HomePage = () => {
       <Hero/>
       <TopDestination/>
       <Hotels/>
+      <Reviews/>
     </div>
   )
 }
