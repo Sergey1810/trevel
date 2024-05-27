@@ -1,3 +1,5 @@
+import Contact from '@/Components/Contact'
+import Footer from '@/Components/Footer'
 import Hero from '@/Components/Hero'
 import Hotels from '@/Components/Hotels'
 import MobileNav from '@/Components/MobileNav'
@@ -21,6 +23,8 @@ const HomePage = () => {
       <TopDestination/>
       <Hotels/>
       <Reviews/>
+      <Contact/>
+      <Footer/>
     </div>
   )
 }
